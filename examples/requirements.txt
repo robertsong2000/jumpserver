@@ -1,0 +1,14 @@
+# JumpServer API 测试依赖
+# 安装: pip install -r requirements.txt
+
+# HTTP 请求库
+requests>=2.31.0
+
+# HTTP Signature 认证
+drf-httpsig>=1.2.0
+
+# 环境变量加载
+python-dotenv>=1.0.0
+
+# Python 3.12+ 需要 setuptools<75 以支持 pkg_resources
+# setuptools>=70.0.0,<75.0.0
